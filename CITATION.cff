@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or the trained models, please cite the paper below."
+title: "KAFlow: Low-Rank Kolmogorov-Arnold Generator Flows for Interpretable Operator Learning"
+authors:
+  - family-names: Cheon
+    given-names: Minjong
+    affiliation: "Korea National Open University"
+license: MIT
+repository-code: "https://github.com/jmj2316/KAFlow-1D"
+preferred-citation:
+  type: article
+  title: "Low-Rank Kolmogorov-Arnold Generator Flows for Interpretable Operator Learning"
+  authors:
+    - family-names: Cheon
+      given-names: Minjong
+  journal: "arXiv preprint arXiv:2610.13028"
+  year: 2026
+  url: "https://arxiv.org/abs/2610.13028"

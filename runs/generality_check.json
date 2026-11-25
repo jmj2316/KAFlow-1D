@@ -1,0 +1,152 @@
+{
+ "rank": {
+  "G1": {
+   "true": {
+    "rank_1e3": 2,
+    "rank_1e6": 2,
+    "sv": [
+     1.0,
+     0.00107,
+     4.72e-16,
+     3.76e-16,
+     1.98e-16,
+     1.6e-16
+    ]
+   },
+   "kano_learned": {
+    "rank_1e3": 2,
+    "rank_1e6": 2,
+    "sv": [
+     1.0,
+     0.389,
+     1.48e-08,
+     9.56e-09,
+     6.8e-09,
+     5.64e-09
+    ]
+   }
+  },
+  "G2": {
+   "true": {
+    "rank_1e3": 2,
+    "rank_1e6": 2,
+    "sv": [
+     1.0,
+     0.0366,
+     8.47e-16,
+     6.82e-16,
+     3.87e-16,
+     2.91e-16
+    ]
+   },
+   "kano_learned": {
+    "rank_1e3": 2,
+    "rank_1e6": 3,
+    "sv": [
+     1.0,
+     0.036,
+     3.53e-06,
+     1.21e-08,
+     4.63e-09,
+     2.26e-09
+    ]
+   }
+  },
+  "G3": {
+   "true": {
+    "rank_1e3": 2,
+    "rank_1e6": 2,
+    "sv": [
+     1.0,
+     0.0366,
+     8.47e-16,
+     6.82e-16,
+     3.87e-16,
+     2.91e-16
+    ]
+   },
+   "kano_learned": {
+    "rank_1e3": 2,
+    "rank_1e6": 3,
+    "sv": [
+     1.0,
+     0.0369,
+     3.25e-06,
+     1.41e-08,
+     9.05e-09,
+     7.72e-09
+    ]
+   }
+  },
+  "|xi|^(1+0.5 sin x)": {
+   "true": {
+    "rank_1e3": 3,
+    "rank_1e6": 6,
+    "sv": [
+     1.0,
+     0.0289,
+     0.00253,
+     0.000232,
+     1.74e-05,
+     1e-06
+    ]
+   }
+  },
+  "exp(-(1+0.5 sin x) xi^2/50)": {
+   "true": {
+    "rank_1e3": 4,
+    "rank_1e6": 7,
+    "sv": [
+     1.0,
+     0.134,
+     0.0156,
+     0.0019,
+     0.000239,
+     3.04e-05
+    ]
+   }
+  }
+ },
+ "speed": {
+  "infer_400_KANO_n2_symbol_eval": 0.008745789527893066,
+  "infer_400_KANO_n2_cached": 0.00011149048805236816,
+  "train_step_64_KANO_n2": 0.010139800608158112
+ },
+ "check": {
+  "n2_vs_n3_rel": 6.790033239667537e-06,
+  "test_relL2_n3": 7.498817285522819e-05,
+  "test_relL2_n2": 5.941022754996084e-05
+ },
+ "scaling": {
+  "64": {
+   "KANO O(N^3) official algorithm": 0.0034086108207702637,
+   "KANO O(N^2) incl. symbol evaluation": 0.003395363688468933,
+   "KANO O(N^2) cached (inference)": 1.3180077075958252e-05,
+   "KAFlow-U": 0.002060927450656891
+  },
+  "128": {
+   "KANO O(N^3) official algorithm": 0.008230306208133698,
+   "KANO O(N^2) incl. symbol evaluation": 0.007994934916496277,
+   "KANO O(N^2) cached (inference)": 3.9361417293548584e-05,
+   "KAFlow-U": 0.0024685561656951904
+  },
+  "256": {
+   "KANO O(N^3) official algorithm": 0.053802214562892914,
+   "KANO O(N^2) incl. symbol evaluation": 0.039270006120204926,
+   "KANO O(N^2) cached (inference)": 7.680058479309082e-05,
+   "KAFlow-U": 0.0028557181358337402
+  },
+  "512": {
+   "KANO O(N^3) official algorithm": 0.5053801387548447,
+   "KANO O(N^2) incl. symbol evaluation": 0.35621700435876846,
+   "KANO O(N^2) cached (inference)": 9.834021329879761e-05,
+   "KAFlow-U": 0.003688037395477295
+  },
+  "1024": {
+   "KANO O(N^3) official algorithm": null,
+   "KANO O(N^2) incl. symbol evaluation": 3.595624752342701,
+   "KANO O(N^2) cached (inference)": 0.0007393881678581238,
+   "KAFlow-U": 0.0051809996366500854
+  }
+ }
+}
